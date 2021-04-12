@@ -7,9 +7,15 @@
 
 .header_page {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     min-height: 100px;
     align-items: center;
+    background-color: cadetblue;
+}
+
+.span_header {
+    font-family: roboto;
+    margin-left: 50px;
 }
 
 .product-item {
@@ -27,6 +33,10 @@
     src: local("roboto-regular"), url(../JSpro-Lesson_1/roboto/roboto-regular.ttf);
 }
 
-.btn-cart {
+.btn-cart,.buy-btn {
     font-family: roboto;
+   /* margin-right: 50px; */ 
+    width: 100px;
+    min-height: 30px;
 }
+.wrp_btn{margin-right: 50px;}
